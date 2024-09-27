@@ -30,3 +30,9 @@ A Roblox script that detects when a player joins the game and logs their chat me
    - Go to **Explorer** and locate **ServerScriptService**.
    - Right-click on **ServerScriptService** and select **Insert Object** > **Script**.
    - Replace the default code with the following:
+  
+5. **Turn On HTTP Requests**
+- Go to file
+- Game settings
+- Security
+- HTTP Requests turn it on
