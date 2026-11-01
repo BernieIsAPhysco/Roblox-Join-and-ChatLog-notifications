@@ -7,7 +7,7 @@ local GameName = MarketplaceService:GetProductInfoAsync(game.PlaceId).Name
 
 
 -- Discord Webhook URL
-local webhookURL = "https://discord.com/api/webhooks/1566519511211974826/MNaI5LGFfRHWVrB-93twrbADUA6X-_o_0cNpmsClVitGcgIJc-6KZMPFZ7hJOnaM1oEr"
+local webhookURL = "YOUR_DISCORD_WEBHOOK_URL"
 
 -- Function to send a message to the Discord webhook
 local function sendToWebhook(title, description)
