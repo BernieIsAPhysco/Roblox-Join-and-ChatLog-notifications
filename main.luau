@@ -37,3 +37,12 @@ Players.PlayerAdded:Connect(function(player)
         sendToWebhook("Chat Message Logged", username .. ": " .. message .. " (Sent at " .. timeMessageSent .. ")")
     end)
 end)
+
+-- Detect when a palyer leaves the game - Added by LuhLuaProgrammer (>‿<)
+Players.PlayerRemoving:Connect(function(player)
+	local Username = player.Name
+	local TimeLeft = os.date("%Y-%m-%d %H:%M:%S", os.time())
+	
+	
+	sendToWebhook("Player left the game", Username.." has left the game at "..TimeLeft)
+end)
